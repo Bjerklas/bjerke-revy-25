@@ -1,0 +1,177 @@
+/*
+@font-face {
+    font-family: "oxanium";
+    src: url('fonts/Oxanium-Regular.ttf')
+}
+*/
+@font-face {
+    font-family: "montserrat";
+    src: url('fonts/Montserrat/Montserrat-VariableFont_wght.ttf')
+}
+
+html, body {
+    background-color: black;
+    width: 99vw;
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+    /*background-color: black;*/
+    overflow-x: hidden;
+    font-family: "montserrat";
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+#logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#roles-container {
+    text-align: center;
+}
+#roles-container p {
+    font-size: 1.2em;
+}
+#about-content {
+    font-size: 1.07em;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#cont-container {
+    text-align: center;
+}
+#cont-container h1 {
+    font-size: 1.5em;
+}
+#cont-container h2 {
+    font-size: 1.2em;
+}
+#cont-container p {
+    font-size: 1.2em;
+}
+#cont-content {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#some-container h1{
+    padding-left: 2%;
+    font-size: 1.3em;
+}
+#logo-image-container {
+    width: 80%;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+.video-container h2 {
+    font-size: 1.2em;
+    margin-bottom: 2%;
+}
+.video-container img {
+    margin-top: 0;
+}
+#main-content {
+    width: 100%;
+    height: 50%;
+    color: black;
+    display: flex;
+    overflow-x: auto;   /* Horisontal scrolling */
+    scroll-snap-type: x mandatory; /* Lager snap-effekt på scroll */
+    scrollbar-width: none; /* Gjem scrollbar firefox */
+    -ms-overflow-style: none; /* Gjem scrollbar IE */
+    scroll-behavior: smooth; /* Jevn scrolling */
+}
+#main-content::-webkit-scrollbar {
+    display: none;  /* Gjem scrollbar chrome, safari*/
+}
+
+.content-container {
+    flex: 0 0 100%;     /* Hver modul tar full bredde */
+    scroll-snap-align: start; /* For snap-effekt */
+    overflow-y: auto;
+    max-height: 50vh; /* MÅ ANTAGELIG ENDRES*/
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+.content-container::-webkit-scrollbar {
+    display: none;
+}
+
+#dancer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.video-container {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.video-thumbnail {
+    width: 100%;
+}
+
+.video-play {
+    width: 100%;
+}
+
+#some-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.some-nav-container {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center
+}
+.some-nav-container p {
+    margin-top: 0;
+}
+.some-nav-image-container {
+    margin-bottom: 0;
+}
+.some-img {
+    width: 100%;
+}
+
+
+#nav {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.nav-circle {
+    width: 10%;
+    aspect-ratio: 1 / 1;
+    border-style: solid;
+    border-radius: 200%;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-color: rgb(184,66,90);
+    background-color: black;
+}
+#nav1 {
+    background-color: rgb(184,66,90);;
+}
+
+#some-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
