@@ -17,6 +17,7 @@ html, body {
     padding: 0;
     /*background-color: black;*/
     overflow-x: hidden;
+    overflow-y: hidden;
     font-family: "montserrat";
 }
 
