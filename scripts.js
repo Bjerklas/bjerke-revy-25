@@ -92,7 +92,7 @@ window.addEventListener("load", (e) => {
             video.setAttribute("controls", "");
             video.setAttribute("class","video-play")
             var source = document.createElement("source");
-            source.setAttribute("src","./video/danser_"+i+".MP4");
+            source.setAttribute("src","./video/danser_"+i+".mp4");
             source.setAttribute("type","video/MP4");
             video.appendChild(source);
             e.target.style.display = "none";
