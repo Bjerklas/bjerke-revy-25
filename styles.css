@@ -41,6 +41,9 @@ h1 {
     padding-left: 2%;
     padding-right: 2%;
 }
+#about-container h2 {
+    font-size: 1.2em;
+}
 #cont-container {
     text-align: center;
 }
